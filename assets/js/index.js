@@ -22,9 +22,6 @@ function getUserInfo() {
             }
             renderAvatar(res.data)
 
-        },
-        complete: function(res) {
-            console.log(res.responseJSON);
         }
     })
 }
